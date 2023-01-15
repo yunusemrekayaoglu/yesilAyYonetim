@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PsikiyatrVeriGirisFormu</class>
+ <widget class="QWidget" name="PsikiyatrVeriGirisFormu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>653</width>
+    <height>436</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_6">
+   <item row="1" column="0">
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="0" column="0">
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QLabel" name="lblAdi">
+         <property name="text">
+          <string>Psikiyatr Adı:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="lblDogumTarihi">
+         <property name="text">
+          <string>Doğum Tarihi:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="lblCinsiyeti">
+         <property name="text">
+          <string>Cinsiyeti:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="lblSoyadi">
+         <property name="text">
+          <string>Psikiyatr Soyadı:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="leSoyadi"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="lblDiplomaNo">
+         <property name="text">
+          <string>Diploma Numarası:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="lblSicilNo">
+         <property name="text">
+          <string>Sicil Numarası:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLineEdit" name="leSicilNo"/>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="leTCKimlikNo"/>
+       </item>
+       <item row="4" column="1">
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <widget class="QRadioButton" name="rbErkek">
+           <property name="text">
+            <string>Erkek</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QRadioButton" name="rbKadin">
+           <property name="text">
+            <string>Kadın</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="3" column="1">
+        <widget class="QDateEdit" name="deDogumTarihi"/>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="leAdi"/>
+       </item>
+       <item row="5" column="1">
+        <widget class="QSpinBox" name="sbDiplomaNo"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="lblTCKimlikNo">
+         <property name="text">
+          <string>T.C. Kimlik Numarası:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="lblBolumu">
+         <property name="text">
+          <string>Psikiyatr Bölümü:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QLineEdit" name="leBolumu"/>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="1">
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="pbKaydet">
+         <property name="text">
+          <string>Kaydet</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../Kaynaklar.qrc">
+           <normaloff>:/Resimler/Resimler/kaydet.png</normaloff>:/Resimler/Resimler/kaydet.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="pbIptal">
+         <property name="text">
+          <string>İptal</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../Kaynaklar.qrc">
+           <normaloff>:/Resimler/Resimler/iptal.png</normaloff>:/Resimler/Resimler/iptal.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="1">
+      <widget class="QLabel" name="lblBaslik">
+       <property name="font">
+        <font>
+         <pointsize>18</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Psikiyatr Veri Giriş Formu</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="lblSimge">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../../Kaynaklar.qrc">:/Resimler/Resimler/psikiyatr.png</pixmap>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../Kaynaklar.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pbIptal</sender>
+   <signal>clicked()</signal>
+   <receiver>PsikiyatrVeriGirisFormu</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>585</x>
+     <y>125</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>652</x>
+     <y>302</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

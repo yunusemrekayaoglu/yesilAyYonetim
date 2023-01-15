@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>YesilayVeriGirisFormu</class>
+ <widget class="QWidget" name="YesilayVeriGirisFormu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>742</width>
+    <height>430</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_4">
+   <item row="2" column="0">
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="2" column="1">
+        <widget class="QPlainTextEdit" name="pteIletisim"/>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="leBirimAdi"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="lblBiriIletisim">
+         <property name="text">
+          <string>Birim İletişim:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="lblBirimAdi">
+         <property name="text">
+          <string>Birim Adı:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="leBirimKodu"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="lblBirimKodu">
+         <property name="text">
+          <string>Birim Kodu:</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="1">
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="pbKaydet">
+         <property name="text">
+          <string>Kaydet</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../Kaynaklar.qrc">
+           <normaloff>:/Resimler/Resimler/kaydet.png</normaloff>:/Resimler/Resimler/kaydet.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="pbIptal">
+         <property name="text">
+          <string>İptal</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../Kaynaklar.qrc">
+           <normaloff>:/Resimler/Resimler/iptal.png</normaloff>:/Resimler/Resimler/iptal.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0">
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="lblLogo">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../../Kaynaklar.qrc">:/Resimler/Resimler/yesilayLogo.jpg</pixmap>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="lblBaslik">
+       <property name="font">
+        <font>
+         <pointsize>18</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Yeşilay Birim Veri Giriş Formu</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../Kaynaklar.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pbIptal</sender>
+   <signal>clicked()</signal>
+   <receiver>YesilayVeriGirisFormu</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>667</x>
+     <y>155</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>727</x>
+     <y>377</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

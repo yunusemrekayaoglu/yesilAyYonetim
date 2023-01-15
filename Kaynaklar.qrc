@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/Resimler">
+        <file>Resimler/birim.png</file>
+        <file>Resimler/gozetmen.png</file>
+        <file>Resimler/iptal.png</file>
+        <file>Resimler/kaydet.png</file>
+        <file>Resimler/psikiyatr.png</file>
+        <file>Resimler/yesilayLogo.jpg</file>
+        <file>Resimler/hasta.png</file>
+        <file>Resimler/ziyaret.png</file>
+    </qresource>
+</RCC>
